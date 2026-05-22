@@ -1,0 +1,91 @@
+{
+  "demo_business_date": "2024-06-24",
+  "demo_week_start": "2024-06-18",
+  "demo_week_end": "2024-06-24",
+  "date_selection_reason": "优先选择风险量适中且来源/严重级覆盖完整、补货建议可关联的日期，最终选择2024-06-24。",
+  "candidate_dates_top5": [
+    {
+      "date": "2024-06-24",
+      "score": 127.0,
+      "risk_count": 117,
+      "source_coverage_count": 4,
+      "severity_coverage_count": 3,
+      "linked_actions": 80,
+      "reasons": [
+        "risk=117",
+        "src_cov=4",
+        "sev_cov=3",
+        "linked=80",
+        "has_7d=True"
+      ]
+    },
+    {
+      "date": "2024-06-22",
+      "score": 125.94,
+      "risk_count": 110,
+      "source_coverage_count": 4,
+      "severity_coverage_count": 3,
+      "linked_actions": 69,
+      "reasons": [
+        "risk=110",
+        "src_cov=4",
+        "sev_cov=3",
+        "linked=69",
+        "has_7d=True"
+      ]
+    },
+    {
+      "date": "2024-06-08",
+      "score": 123.5,
+      "risk_count": 105,
+      "source_coverage_count": 4,
+      "severity_coverage_count": 3,
+      "linked_actions": 75,
+      "reasons": [
+        "risk=105",
+        "src_cov=4",
+        "sev_cov=3",
+        "linked=75",
+        "has_7d=True"
+      ]
+    },
+    {
+      "date": "2024-04-23",
+      "score": 113.82,
+      "risk_count": 103,
+      "source_coverage_count": 4,
+      "severity_coverage_count": 3,
+      "linked_actions": 67,
+      "reasons": [
+        "risk=103",
+        "src_cov=4",
+        "sev_cov=3",
+        "linked=67",
+        "has_7d=True"
+      ]
+    },
+    {
+      "date": "2024-05-28",
+      "score": 102.16,
+      "risk_count": 76,
+      "source_coverage_count": 4,
+      "severity_coverage_count": 3,
+      "linked_actions": 56,
+      "reasons": [
+        "risk=76",
+        "src_cov=4",
+        "sev_cov=3",
+        "linked=56",
+        "has_7d=True"
+      ]
+    }
+  ],
+  "source_files": [
+    "data/demo/mart_operational_risk_queue_v3_display.json",
+    "data/demo/mart_replenishment_actions_display.json",
+    "data/demo/mart_sku_daily_metrics_display_sample.json",
+    "data/demo/mart_weekly_review_display.json"
+  ],
+  "build_time": "2026-05-20 03:10:21",
+  "note": "V2新增business_date与action_business_date展示口径，不改写原始目录。"
+}
